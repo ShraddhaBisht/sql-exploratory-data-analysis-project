@@ -1,30 +1,27 @@
 /*
 ===============================================================================
-Database Exploration
+Date Range Exploration 
 ===============================================================================
 Purpose:
-    - To explore the structure of the database, including the list of tables and their schemas.
-    - To inspect the columns and metadata for specific tables.
+    - To determine the temporal boundaries of key data points.
+    - To understand the range of historical data.
 
-Table Used:
-    - INFORMATION_SCHEMA.TABLES
-    - INFORMATION_SCHEMA.COLUMNS
+SQL Functions Used:
+    - MIN(), MAX(), DATEDIFF()
 ===============================================================================
 */
 
--- Retrieve a list of all tables in the database
+-- Determine the first and last order date and the total duration in months
 SELECT 
-    TABLE_CATALOG, 
-    TABLE_SCHEMA, 
-    TABLE_NAME, 
-    TABLE_TYPE
-FROM INFORMATION_SCHEMA.TABLES;
+    MIN(order_date) AS first_order_date,
+    MAX(order_date) AS last_order_date,
+    DATEDIFF(MONTH, MIN(order_date), MAX(order_date)) AS order_range_months
+FROM gold.fact_sales;
 
--- Retrieve all columns for a specific table (dim_customers)
-SELECT 
-    COLUMN_NAME, 
-    DATA_TYPE, 
-    IS_NULLABLE, 
-    CHARACTER_MAXIMUM_LENGTH
-FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_NAME = 'dim_customers';
+-- Find the youngest and oldest customer based on birthdate
+SELECT
+    MIN(birthdate) AS oldest_birthdate,
+    DATEDIFF(YEAR, MIN(birthdate), GETDATE()) AS oldest_age,
+    MAX(birthdate) AS youngest_birthdate,
+    DATEDIFF(YEAR, MAX(birthdate), GETDATE()) AS youngest_age
+FROM gold.dim_customers;
