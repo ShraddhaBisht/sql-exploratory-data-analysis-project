@@ -41,7 +41,7 @@ sql-exploratory-data-analysis-project/
 ├── datasets/
 │ ├── gold.dim_customers.csv
 │ ├── gold.dim_products.csv
-│ ├── gold.fact_Sales.csv
+│ ├── gold.fact_sales.csv
 ├── scripts/
 │ ├── init_database.sql
 │ ├── database_exploration.sql
