@@ -66,9 +66,6 @@ sql-exploratory-data-analysis-project/
 
 This project contains 14 SQL scripts covering exploratory analysis, trend analysis, customer analytics, product analytics, segmentation, ranking, performance evaluation, and business reporting using Microsoft SQL Server.
 
-This repository contains SQL queries designed to help data analysts and BI professionals quickly explore, segment, and analyze data within a relational database.
-Each script focuses on a specific analytical theme and demonstrates best practices for SQL queries.
-
 ---
 
 ## 📊 Analysis Performed
