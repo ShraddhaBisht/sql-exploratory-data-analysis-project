@@ -136,13 +136,14 @@ This project contains 14 SQL scripts covering exploratory analysis, trend analys
 ---
 ## Acknowledgements
 
-Special thanks to **Baraa Khatib Salkini (DataWithBaraa)** for creating the original SQL Data Warehouse project and accompanying learning resources. This repository was recreated for educational purposes by following his blog and excellent Yotube guided videos.
-[
-- Blog: https://www.blog.datawithbaraa.com/p/build-a-data-warehouse-from-scratch
-- YouTube Video: https://www.youtube.com/watch?v=9GVqKuTVANE
-- GitHub Repository: https://github.com/DataWithBaraa/sql-data-analytics-project
----
+Special thanks to **Baraa Khatib Salkini (DataWithBaraa)**. his repository was recreated as part of my learning journey by following his blog and YouTube tutorial series to strengthen my SQL, data exploration, and analytical skills.
 
+### Original Resources
+- 📖 Blog: https://www.blog.datawithbaraa.com/p/your-first-date-with-data
+- 🎥 YouTube: https://www.youtube.com/watch?v=6cJ5Ji8zSDg
+- 💻 GitHub Repository: https://github.com/DataWithBaraa/sql-data-analytics-project
+
+---
 ## 🌱 About Me✨
 
 Hi there! I'm **Shraddha Bisht**. 
