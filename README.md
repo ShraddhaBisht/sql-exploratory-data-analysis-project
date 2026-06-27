@@ -140,6 +140,7 @@ Special thanks to **Baraa Khatib Salkini (DataWithBaraa)** for creating the orig
 [
 - Blog: https://www.blog.datawithbaraa.com/p/build-a-data-warehouse-from-scratch
 - YouTube Video: https://www.youtube.com/watch?v=9GVqKuTVANE
+- GitHub Repository: https://github.com/DataWithBaraa/sql-data-analytics-project
 ---
 
 ## 🌱 About Me✨
