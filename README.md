@@ -134,6 +134,13 @@ This project contains 14 SQL scripts covering exploratory analysis, trend analys
 [![SSMS](https://img.shields.io/badge/SQL_Server_Management_Studio-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](https://learn.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms)
 
 ---
+## Acknowledgements
+
+Special thanks to **Baraa Khatib Salkini (DataWithBaraa)** for creating the original SQL Data Warehouse project and accompanying learning resources. This repository was recreated for educational purposes by following his blog and excellent Yotube guided videos.
+[
+- Blog: https://www.blog.datawithbaraa.com/p/build-a-data-warehouse-from-scratch
+- YouTube Video: https://www.youtube.com/watch?v=9GVqKuTVANE
+---
 
 ## 🌱 About Me✨
 
