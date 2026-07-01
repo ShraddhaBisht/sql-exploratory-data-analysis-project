@@ -140,7 +140,6 @@ Special thanks to **Baraa Khatib Salkini (DataWithBaraa)**. his repository was r
 
 - 📖 Blog: https://www.blog.datawithbaraa.com/p/your-first-date-with-data
 - 🎥 YouTube: https://www.youtube.com/watch?v=6cJ5Ji8zSDg
-- 💻 GitHub Repository: https://github.com/DataWithBaraa/sql-data-analytics-project
 
 ---
 ## 🌱 About Me✨
